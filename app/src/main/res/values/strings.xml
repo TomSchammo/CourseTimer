@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Course Timer</string>
+    <string name="default_counter_value">00:00:00</string>
+    <string name="add">Add</string>
+    <string name="currency_text">Please select the currency you want to use</string>
+    <string name="earnings_text">How much money do you earn?</string>
+    <string name="earnings_hint">earnings/h</string>
+    <string name="spinner_arrow_description">arrow down image for the currency spinner</string>
+    <string name="hint_client_name">Client name</string>
+    <string name="hint_set_date">Set Date</string>
+    <string name="hint_set_start_time">Set Start Time</string>
+    <string name="hint_set_end_time">Set End Time</string>
+    <string name="client_name_popup_text">Please enter the name of your client</string>
+    <string name="button_label_set">Set</string>
+
+    <string-array name="currencies">
+        <item>₽</item>
+        <item>$</item>
+        <item>€</item>
+        <item>L</item>
+        <item>£</item>
+        <item>؋</item>
+        <item>֏</item>
+        <item>ƒ</item>
+        <item>₼</item>
+        <item>৳</item>
+        <item>₹</item>
+        <item>P</item>
+        <item>៛</item>
+        <item>₡</item>
+        <item>₣</item>
+        <item>D</item>
+        <item>₾</item>
+        <item>₵</item>
+        <item>Q</item>
+        <item>G</item>
+        <item>﷼</item>
+        <item>₪</item>
+        <item>₸</item>
+        <item>₩</item>
+        <item>с</item>
+        <item>₭</item>
+        <item>R</item>
+        <item>5</item>
+        <item>₨</item>
+        <item>₮</item>
+        <item>₦</item>
+        <item>₺</item>
+        <item>K</item>
+        <item>₲</item>
+        <item>₱</item>
+        <item>T</item>
+        <item>฿</item>
+        <item>m</item>
+        <item>₴</item>
+        <item>₫</item>
+        <item>¥</item>
+    </string-array>
+</resources>

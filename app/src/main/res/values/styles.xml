@@ -1,0 +1,66 @@
+<resources>
+    
+    <!-- custom button_add -->
+
+    <style name="button_add" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_add</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- custom text edit -->
+
+    <style name="edit_text" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:textColorHint">#44000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- custom popup -->
+
+    <style name="PopUp" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorBackgroundAlpha</item>
+    </style>
+
+    <!-- custom spinner item -->
+
+    <style name="spinner_dropdown" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">@color/colorFloatingAddButton</item>
+    </style>
+    
+    <!-- custom time picker -->
+    
+    <style name="time_picker" parent="android:Widget.Material.TimePicker">
+        <item name="android:timePickerMode">clock</item>
+        <item name="android:numbersTextColor">#FFF</item>
+        <item name="android:numbersInnerTextColor">#FFF</item>
+
+        <item name="android:headerBackground">@android:color/transparent</item>
+        <item name="android:numbersBackgroundColor">@android:color/transparent</item>
+
+        <item name="android:numbersSelectorColor">@color/colorFloatingAddButton</item>
+    </style>
+
+
+</resources>

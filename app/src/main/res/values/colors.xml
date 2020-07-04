@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorFloatingAddButton">#212121</color>
+    <color name="backgroundFloatingAddButton">#FFFFFF</color>
+
+    <color name="colorBackgroundAlpha">#443c3f45</color>
+
+    <color name="colorAdd">#B24DBF46</color>
+    <color name="colorAddDark">#4DBF46</color>
+
+    <color name="colorDisabled">#A9A9A9</color>
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/ic_play_circle_outline_black_24dp"
+
+        android:background="@null"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.7"/>
+
+
+    <ImageButton
+        android:id="@+id/stopButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:src="@drawable/ic_pause_circle_outline_black_24dp"
+
+        android:background="@null"
+
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.7"/>
+
+    <TextView
+        android:id="@+id/showCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/default_counter_value"
+        android:textStyle="normal"
+        android:textSize="50sp"
+        android:textColor="#000"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.3"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingSettingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.98"
+
+
+        app:layout_constraintVertical_bias="0.98"
+
+
+        android:tint="@color/backgroundFloatingAddButton"
+        app:backgroundTint="@color/colorFloatingAddButton"
+        app:srcCompat="@drawable/ic_settings_black_24dp"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
