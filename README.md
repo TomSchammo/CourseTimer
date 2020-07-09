@@ -23,7 +23,7 @@ The latter only has visual effects though, you can change it any time, but money
 
 ## How do I get this app?
 
-You can build the app yourself using the source code and install it on your phone using ADB or you can download the APK and install it directly on your phone.
+You can build the app yourself using the source code and install it on your phone using ADB or you can download the APK from the release files and install it directly on your phone.
 
 I'd recommend the latter to take advantage of automated updates.
 
